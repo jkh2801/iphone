@@ -91,6 +91,7 @@
         flex-direction: column;
         justify-content: flex-start;
         .content {
+            z-index: 10;
             h1 {
                 display: none;
             }
