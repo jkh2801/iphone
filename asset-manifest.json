@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/iphone/static/css/main.8888610e.chunk.css",
+    "main.js": "/iphone/static/js/main.88ed56f4.chunk.js",
+    "main.js.map": "/iphone/static/js/main.88ed56f4.chunk.js.map",
+    "runtime-main.js": "/iphone/static/js/runtime-main.42724569.js",
+    "runtime-main.js.map": "/iphone/static/js/runtime-main.42724569.js.map",
+    "static/js/2.12614b72.chunk.js": "/iphone/static/js/2.12614b72.chunk.js",
+    "static/js/2.12614b72.chunk.js.map": "/iphone/static/js/2.12614b72.chunk.js.map",
+    "static/js/3.f8dbc250.chunk.js": "/iphone/static/js/3.f8dbc250.chunk.js",
+    "static/js/3.f8dbc250.chunk.js.map": "/iphone/static/js/3.f8dbc250.chunk.js.map",
+    "index.html": "/iphone/index.html",
+    "static/css/main.8888610e.chunk.css.map": "/iphone/static/css/main.8888610e.chunk.css.map",
+    "static/js/2.12614b72.chunk.js.LICENSE.txt": "/iphone/static/js/2.12614b72.chunk.js.LICENSE.txt",
+    "static/media/apple.121d473c.png": "/iphone/static/media/apple.121d473c.png",
+    "static/media/black.4ca1a666.png": "/iphone/static/media/black.4ca1a666.png",
+    "static/media/blue.b91ea565.png": "/iphone/static/media/blue.b91ea565.png",
+    "static/media/bluePro.09f7906f.png": "/iphone/static/media/bluePro.09f7906f.png",
+    "static/media/box.53432038.png": "/iphone/static/media/box.53432038.png",
+    "static/media/goldPro.0f633389.png": "/iphone/static/media/goldPro.0f633389.png",
+    "static/media/graphitePro.3cdaa4f2.png": "/iphone/static/media/graphitePro.3cdaa4f2.png",
+    "static/media/green.3adbca9c.png": "/iphone/static/media/green.3adbca9c.png",
+    "static/media/iphone1.bf7f95cf.png": "/iphone/static/media/iphone1.bf7f95cf.png",
+    "static/media/iphone2.6de741a1.png": "/iphone/static/media/iphone2.6de741a1.png",
+    "static/media/iphone3.2290c06e.png": "/iphone/static/media/iphone3.2290c06e.png",
+    "static/media/iphone4.18927741.png": "/iphone/static/media/iphone4.18927741.png",
+    "static/media/iphone5.69e09843.png": "/iphone/static/media/iphone5.69e09843.png",
+    "static/media/red.22a416bc.png": "/iphone/static/media/red.22a416bc.png",
+    "static/media/silverPro.e5aef0d0.png": "/iphone/static/media/silverPro.e5aef0d0.png",
+    "static/media/white.08ecb974.png": "/iphone/static/media/white.08ecb974.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42724569.js",
+    "static/js/2.12614b72.chunk.js",
+    "static/css/main.8888610e.chunk.css",
+    "static/js/main.88ed56f4.chunk.js"
+  ]
+}
