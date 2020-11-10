@@ -1,0 +1,92 @@
+.contact {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 150px 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .imgBx {
+            position: relative;
+            width: 100%;
+            transition: 1s;
+            img {
+                transform: translateY(4%);
+                max-width: 100%;
+                animation: mockup 2s ease-in-out infinite;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-53%, 0%) rotate(-37deg) skew(26deg, 10deg);
+                transition: 1s;
+                width: 58%;
+                height: 35%;
+                background: rgba(0, 0, 0, 0.08);
+                mix-blend-mode: hue;
+            }
+        }
+        .logo {
+            position: relative;
+            width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
+        .url {
+            display: inline-block;
+            margin: 10px 0;
+            font-size: 2em;
+            font-weight: 800;
+            cursor: pointer;
+            &:hover {
+                color: #ff0157;
+            }
+        }
+    }
+}
+@keyframes mockup {
+    from {
+        transform: translateY(4%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(4%);
+    }
+}
+@media (max-width: 891px) {
+    .contact {
+        .content{
+            &:nth-of-type(1) {
+                display: none;
+            }
+            &:nth-of-type(2) {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 547px) {
+    .contact {
+        padding: 150px 0 50px;
+        .content{
+            &:nth-of-type(2) {
+                .logo {
+                    display: none;
+                }
+            }
+        }
+    }
+}

@@ -1,3 +1,49 @@
+.nav_white .navigation li a {
+    color: #ff784b;
+    &:hover {
+        color: #fff;
+    }
+    &::before {
+        background: #ff784b;
+    }
+}
+.nav_red .navigation li a {
+    color: #da463c;
+    &:hover {
+        color: #fff;
+    }
+    &::before {
+        background: #da463c;
+    }
+}
+.nav_green .navigation li a {
+    color: #50976a;
+    &:hover {
+        color: #fff;
+    }
+    &::before {
+        background: #50976a;
+    }
+}
+.nav_blue .navigation li a {
+    color: #3948b1;
+    &:hover {
+        color: #fff;
+    }
+    &::before {
+        background: #3948b1;
+    }
+}
+.nav_black .navigation li a {
+    color: #1d1d1f;
+    &:hover {
+        color: #fff;
+    }
+    &::before {
+        background: #1d1d1f;
+    }
+}
+
 .nav {
     position: fixed;
     top: 0;
@@ -8,11 +54,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
+    transition: 1s;
     &.sticky {
         background: #fff;
         padding: 10px 100px;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        .navigation li a {
+            color: #222;
+            &:hover {
+                color: #ff0157;
+            }
+            &::before {
+                background: #222;
+            }
+        }
     }
     .navigation  {
         position: relative;
@@ -20,45 +75,37 @@
         li {
             position: relative;
             list-style: none;
-            margin-left: 30px;
+            margin: 0 30px;
             a {
                 text-decoration: none;
-                color: #222;
                 font-weight: 300;
                 &::before {
                     content: '';
                     position: absolute;
-                    width: 100%;
-                    height: 3px;
-                    background: #222;
-                    transform: scale(0);
-                    transform-origin: left;
+                    left: 0;
+                    bottom: -10px;
+                    width: 0px;
+                    height: 5px;
+                    transition: 0.5s ease-in-out;
+                    opacity: 0;
                 }
                 &:hover {
-                    color: #ff0157;
                     &::before {
-                        animation: fadeInOut 1s ease-in-out forwards;
+                        width: 100%;
+                        opacity: 1;
                     }
                 }
             }
         }
     }
 }
-
-@keyframes fadeInOut {
-    0% {
-        transform: translateY(25px) scale(0);
-    }
-    100% {
-        transform: translateY(25px) scale(1);
+  
+@media (max-width: 440px) {
+    .nav {
+        .navigation {
+            li {
+                font-size: 0.7em;
+            }
+        }
     }
 }
-  
-@keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
